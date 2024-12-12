@@ -1,0 +1,37 @@
+Using Case Profiles
+1. Profile Gallery
+Task: It is to develop a view that would provide a rendering of a list of profiles consisting of name, picture, and brief bio.
+Implementation: Generate an Angular or React component for rendering profile cards
+For each card, specify the following: name, biography, and photo.
+
+2. Interactive mapping
+Task: Integrate maps into an interactive mapping component that will render the addresses dynamically through user inputs.
+Implementation: Integrate external map services comprising Google Maps or Mapbox. 
+Use the API to fetch the map and display markers.
+Set up handlers for the various events that are listened to, which is one way of helping end-users in the management of event behaviors (clicks, etc.).
+
+3. Summary Integration
+Task: Implementation of a "Summary" button that sits next to each profile. Clicking on this button displays the map component, indicating the precise address of the selected profile, with a marker.
+Implementation: Add a summary button to each profile card.
+Handle button clicks showing the selected user's profile on the map.
+
+4. Integration of Map Services (Good to have)
+Task: Utilizing premade mapping services, such as Google Maps or Mapbox already, to provide some form of mapping capabilities.
+Implementation: Obtain the API keys provided by the selected map service.
+Set up the map component in order to represent these.
+Make sure that addresses and markers are displayed right.
+
+5. User Experience
+Task: Make sure the application provides seamless and intuitive user experience.
+Implementation: Develop clean and responsive UI layouts.
+Incorporate user-friendly navigation with distinctive visual indicators.
+
+6. Profile Data Management
+Task: Provide existing and new administrators with the capacity to add, edit, and delete profiles.
+Implementation: Administrator panel or dashboard.
+Forms and controls for profile management.
+
+7. Search and Filtering
+Task: Give users abilities to search and filter profiles.
+Implementation: A search bar and filter options will be provided to the user.
+Use logic to filter user profiles based on criteria such as name, location, etc.
